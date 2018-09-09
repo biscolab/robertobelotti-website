@@ -1,0 +1,57 @@
+*, body, html {
+  color: #494949;
+  font-family: Lato;
+  margin: 0;
+  padding: 0; }
+
+body, html, #main {
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+#main {
+  background-color: #eee;
+  height: 100%;
+  position: relative; }
+
+#text {
+  height: auto;
+  left: 20px;
+  position: absolute;
+  top: 20px; }
+
+#contact {
+  background-color: #ddd;
+  border-top: 1px solid #bbb;
+  bottom: 0;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 100%; }
+
+h1 {
+  font-weight: 300; }
+
+h2 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300; }
+
+#coming-soon {
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/*# sourceMappingURL=app.css.map */
